@@ -15,8 +15,10 @@
 
 // Your code goes here
 
-
-
+function logMessage() {
+	const result = 'Hello, World!';
+  console.log(result);
+}
 
 /**
  * =============================================================
@@ -31,8 +33,10 @@
 
 // Your code goes here...
 
-
-
+function logMyMessage(message) {
+  const result = message;
+  console.log(result);
+}
 
 /**
  * ===============================================================
@@ -46,8 +50,10 @@
 
 // Your code goes here...
 
-
-
+function logMessageWithMyName(name) {
+  const tanner = 'My name is ' + name + '!';
+  console.log(tanner);
+}
 
 /**
  * ==============================================================
@@ -62,8 +68,10 @@
 
 // Your code goes here...
 
-
-
+function logMyInfo(name, age) {
+  const tanner = 'My name is ' + name + '. I am ' + age + ' years old!';
+  console.log(tanner);
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
